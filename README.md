@@ -1,6 +1,6 @@
 # P4Y4B13 · Research notes
 
-A minimal GitHub Pages blog for articles, audit writeups, and hack analyses. The homepage is a chronological post index grouped by year, with category filters and search. Includes Markdown posts, RSS, a sitemap, dark mode, responsive layouts, and a direct link to your existing portfolio.
+A minimal GitHub Pages blog for articles, audit writeups, and hack analyses. The homepage is a simple chronological article list grouped by year. Includes Markdown posts, RSS, a sitemap, dark mode, responsive layouts, and an on-site audit portfolio with all competitive and private engagements.
 
 ## Preview locally
 
@@ -53,13 +53,14 @@ Only trusted author-controlled Markdown should be added: embedded HTML is suppor
 - `site.config.json`: identity, social links, local-build URL and base path.
 - `assets/style.css`: palette, typography, layout and responsive styles.
 - `scripts/build.mjs`: blog index and article layouts.
-- `content/posts/`: public writing and sourced audit records.
+- `content/posts/`: public writing and drafts.
+- `content/portfolio.md`: audit tables imported from your public `p4y4b13/Audits` README; edit this file to update the portfolio.
 
 For a manual project-site build, run `BASE_PATH=/repository-name npm run build`. Run checks with the same `BASE_PATH` value. `SITE_URL` is the origin only, such as `https://p4y4b13.github.io`, without the repository path.
 
 ## Content provenance
 
-The welcome post is starter copy for you to edit or remove. The three earlier audit summaries are now unpublished drafts, preserved in `content/posts/`; they do not appear in the index, RSS feed, or sitemap. Templates also remain unpublished. Portfolio links point to your existing https://p4y4b13.com/ website.
+The welcome post is starter copy for you to edit or remove. The three earlier audit summaries are now unpublished drafts, preserved in `content/posts/`; they do not appear in the index, RSS feed, or sitemap. Templates also remain unpublished. The Portfolio navigation opens `/portfolio/`, with all 28 audit engagements from https://github.com/p4y4b13/Audits.
 
 Fonts are loaded from Google Fonts, with local serif, sans-serif and monospace fallbacks. No analytics or tracking scripts are included. Theme preference is stored locally when browser storage is available.
 
