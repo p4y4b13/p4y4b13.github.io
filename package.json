@@ -1,0 +1,1 @@
+{"name":"p4y4b13-fieldnotes","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/serve.mjs","check":"node scripts/check.mjs"},"dependencies":{"marked":"^17.0.0"},"engines":{"node":">=22"}}
